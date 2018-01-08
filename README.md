@@ -5,7 +5,7 @@ Bamazon is a command line interface faux-storefront that allows users to purchas
 
 ### Use
 
-#### Storfront
+#### Storefront
 This is the storefront you will be greeted with.
 ```
 WELCOME TO BAMAZON!
@@ -21,3 +21,7 @@ WELCOME TO BAMAZON!
 9 | funko pop | toys | $9.99 | 150
 10 | the matrix | electronics | $9.99 | 700
 ```
+
+The table represents the products currently in stock. Each product is broken down into its respective id (the number on the left-hand side next to it), name, department, price, and current on-hand stock.
+
+### Making Purchases
