@@ -41,3 +41,14 @@ Once the user has selected their desired product, and hit enter, this will promp
 ? How many would you like to purchase?
 ```
 The user should choose the appropriate quantity they would like to purchase and hit enter.
+
+##### Item[s] purchased!
+Voila! The items have been purchased and the user will be presented with a success message
+```
+Item[s] purchased!
+```
+and a price total of their purchase
+```
+Your total is: $42.98
+```
+Following the success of this purchase, the user is presented an updated table with quantity changes reflecting their purchase.
