@@ -71,6 +71,7 @@ userPrompt = () => {
 
             } else {
                 console.log('Insufficient quantity!');
+                console.log('-------------------------------------------');
 
                 userPrompt();
             }
