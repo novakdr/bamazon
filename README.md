@@ -28,7 +28,7 @@ The table represents the products currently in stock. Each product is broken dow
 ### Making Purchases
 The user will be presented with two requests that will guide them through the ordering process.
 
-First Request:
+##### First Request:
 ```
 ? Which product would you like to purchase? [Use product ID]
 ```
@@ -36,7 +36,7 @@ The user should use the product's ID located next to the product name on the lef
 
 Once the user has selected their desired product, and hit enter, this will prompt the next step.
 
-Second Request: 
+##### Second Request: 
 ```
 ? How many would you like to purchase?
 ```
