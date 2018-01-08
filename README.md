@@ -51,4 +51,13 @@ and a price total of their purchase
 ```
 Your total is: $42.98
 ```
-Following the success of this purchase, the user is presented an updated table with quantity changes reflecting their purchase.
+Following the success of this purchase, the user is presented an updated table with quantity changes reflecting their purchase. They may make another purchase as the application prompts them again.
+
+### Insufficient Quantity
+If the user submits a quantity to purchase that exceeds on-hand stock, an error message will occur.
+```
+Insufficient quantity!
+-------------------------------------------
+```
+The user will be prompted again with the table showing available products and order procedure which is outlined above under Making Purchases.
+
