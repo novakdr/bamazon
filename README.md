@@ -20,8 +20,24 @@ WELCOME TO BAMAZON!
 8 | laptop | electronics | $999.99 | 1
 9 | funko pop | toys | $9.99 | 150
 10 | the matrix | electronics | $9.99 | 700
+-------------------------------------------
 ```
 
 The table represents the products currently in stock. Each product is broken down into its respective id (the number on the left-hand side next to it), name, department, price, and current on-hand stock.
 
 ### Making Purchases
+The user will be presented with two requests that will guide them through the ordering process.
+
+First Request:
+```
+? Which product would you like to purchase? [Use product ID]
+```
+The user should use the product's ID located next to the product name on the left-hand side in the table that's provided at the start-up of this application. This should be a number and the user should only purchase one product at this stage.
+
+Once the user has selected their desired product, and hit enter, this will prompt the next step.
+
+Second Request: 
+```
+? How many would you like to purchase?
+```
+The user should choose the appropriate quantity they would like to purchase and hit enter.
