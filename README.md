@@ -1,11 +1,11 @@
 # bamazon
 
-###Overview
+### Overview
 Bamazon is a command line interface faux-storefront that allows users to purchase various products in various quantity which dynamically changes the on-hand stock quantity in realtime.
 
-###Use
+### Use
 
-####Storfront
+#### Storfront
 This is the storefront you will be greeted with.
 ```
 WELCOME TO BAMAZON!
