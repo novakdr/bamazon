@@ -19,7 +19,7 @@ connection.connect((err) => {
     managerOptions();
 });
 
-//MANAGER PROMPT
+//MANAGER PROMPT 
 managerOptions = () => {
 
     inquirer.prompt({
@@ -54,18 +54,28 @@ managerOptions = () => {
 
                     managerOptions();
                 });
-                
                 break;
 
             case 'Low Inventory':
                 
-                connection.query('SELECT * FROM products WHERE stock_quantity=?', [5], (err, res) => {
+                connection.query('SELECT * FROM products', (err, res) => {
+
+                    console.log('-------------------------------------------');
+                    console.log('LOW QUANTITY INVENTORY')
+                    console.log('-------------------------------------------');
 
                     for (let i = 0; i < res.length; i++) {
-                        console.log(res[i].product_name);
-                    }
-                });
 
+                        if (res[i].stock_quantity < 10) {
+
+                            console.log(res[i].id + ' | ' + res[i].product_name + ' | ' + res[i].department_name + ' | ' + res[i].price + ' | ' + res[i].stock_quantity);
+                        }
+                    }
+
+                    console.log('-------------------------------------------');
+
+                    managerOptions();
+                });
                 break;
 
             case 'Add To Inventory':
